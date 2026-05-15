@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Sekolah</title>
+
+<style>
+:root {
+  --bg: #0f172a;
+  --card: #1e293b;
+  --text: #e2e8f0;
+  --accent: #38bdf8;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  scroll-behavior: smooth;
+}
+
+/* NAV */
+nav {
+  position: sticky;
+  top: 0;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  background: url('https://via.placeholder.com/1200x500') center/cover;
+  padding: 120px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+/* SECTION */
+section {
+  padding: 60px 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* CARD */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* GALERI */
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: var(--accent);
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.6;
+}
+
+.hero {
+  background: url('tajdid.jfif') center/cover;
+  color: white;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+</style>
+
+</head>
+<body>
+
+<nav>
+  <h3>SMP Plus At - tajdid</h3>
+  <div>
+    <a href="#about">About</a>
+    <a href="#jurusan">Jurusan</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#contact">Kontak</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>SMP Plus Muhammadiyah Singaparna</h1>
+  <p>Sekolah Unggul dalam Pembinaan & Karakter</p>
+</div>
+
+<section id="about">
+  <h2>Tentang Sekolah</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Sejarah</h3>
+      <p>
+       Nama “At-Tajdid” terinspirasi dari salah satu
+        istilah gerakan di Muhammadiyah, pembaharuan,
+          pemurnian dan pengembalian pemikiran manusia
+          kepada Islam yang sebenar-benarnya.
+            At-Tajdid didirikan oleh Pimpinan Cabang
+             Muhammadiyah (PCM) Singaparna Kabupaten
+              Tasikmalaya, gagasan bermula sejak tahun
+               1994. Ketua PCM Singaparna
+                Periode 1991-1995, Bapak H. Oyon
+                Sumaryono merasa tergugah dengan 
+                amanat Muktamar Muhammadiyah di B
+                anda Aceh. Gagasan ini mendapat d
+                ukungan dari Pimpinan Cabang Aisy
+                iyah (PCA) Singaparna, dengan sem
+                angat “Nashrun Minallahi Wa Fathu
+                n Qariib”, PCM dan PCA Singaparna
+                mewujudkan
+                  cita-citanya mendirikan Pesantren yang modern.
+    <p>
+  </div>
+
+
+
+
+  <div class="card">
+    <p>
+      Akhirnya, pada tahun 1999 bertepatan dengan
+       berubahnya era Orde Baru ke Reformasi,
+        berdirilah Pesantren At-Tajdid. Tanah wakaf
+         dari Rd. Wiradimadja menjadi tempat berdirinya
+          sarana dan prasarana Pesantren, At-Tajdid
+           memiliki sekolah formal tingkat SMP dan
+            SMA. Pesantren menginduk ke Kemenag sedangka
+            n Sekolahnya menginduk ke Dinas Pendidikan,
+             seiring bertambahnya santri pengelolaan
+              At-Tajdid akhirnya berpindah tangan dari
+               Pimpinan Cabang Muhammadiyah Singaparna
+                kepada Pimpinan Daerah Muhammadiyah
+                 Kabupaten Tasikmalaya, Pesantren At
+                 -Tajdid memiliki visi “Mencetak Genera
+                 
+                 si Unggul Yang Berkarakter Ulul Albab”
+                 . Bertujuan untuk menciptakan kader Mu
+                 hammadiyah yang bermanfaat dan berjiw
+                 a pengabdian bagi Umat, Bangsa dan Ne
+                 gara. Hingga saat ini At-Tajdid telah
+                  melahirkan 20 angkatan yang tersebar
+                   di berbagai Perguruan Tinggi Muhamm
+                   adiyah, Perguruan Tinggi Negeri, Pe
+                   rguruan Tinggi Swasta dan Luar Nege
+                   ri serta ada pula yang sudah berkhi
+                   dmad di Masyarakat, Persyarikatan d
+                   an Pemerintahan
+
+      </p>
+    </div>
+  </div>
+  
+</section>
+
+<section id="jurusan">
+  <h2>Jurusan</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Dakwah</h3>
+      <p>Program Dakwah mempersiapkan santri
+         untuk menjadi da’i yang inspiratif,
+          membekali mereka dengan keterampilan
+           berbicara dan menyampaikan pesan-pesan 
+           Islam secara efektif dan menarik, serta
+            memupuk semangat untuk menyebarkan nilai
+            -nilai kebaikan di Masyarakat.</p>
+    </div>
+    <div class="card">
+      <h3>Bahasa</h3>
+      <p>Dalam program bahasa, santri
+         diajarkan Bahasa Arab dan Bahasa
+          Inggris dengan pendekatan komunikatif,
+           memungkinkan mereka untuk memahami dan
+            berinteraksi dengan dunia Internasional
+             serta memperdalam ilmu Agama melalui
+              teks-teks asli.</p>
+    </div>
+    <div class="card">
+      <h3>Life skills</h3>
+      <p>Program Life Skill di Pesantren
+         At-Tajdid Muhammadiyah Tasikmalaya 
+         mengajarkan santri keterampilan praktis
+          yang relevan, mulai dari kepemimpinan
+           hingga teknik pertanian modern. Dengan
+            ini, santri tidak hanya menghadapi tant
+            angan akademis, tetapi juga siap berkon
+            tribusi secara langsung dalam kehidupan
+             Masyarakat.  </p>
+    </div>
+  </div>
+</section>
+
+<section id="galeri">
+  <h2>Galeri</h2>
+  <div class="grid gallery">
+    <img src="alp.jfif">
+    <img src="kajian.jfif">
+    <img src="apel-1.webp">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Kontak</h2>
+  <p>📍 Jl. Contoh No.1</p>
+  <p>📧 sekolah@email.com</p>
+</section>
+
+<footer>
+  <p>© 2026 SMK Contoh</p>
+</footer>
+
+<script>
+const cards = document.querySelectorAll('.card');
+
+window.addEventListener('scroll', () => {
+  cards.forEach(card => {
+    const top = card.getBoundingClientRect().top;
+    if(top < window.innerHeight - 50){
+      card.classList.add('show');
+    }
+  });
+});
+</script>
+
+</body>
+</html>
